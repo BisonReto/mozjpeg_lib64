@@ -1,0 +1,10 @@
+prefix=F:/code/TBuild/learn/jpeg/mozjpeg64
+exec_prefix=F:/code/TBuild/learn/jpeg/mozjpeg64
+libdir=F:/code/TBuild/learn/jpeg/mozjpeg64/lib
+includedir=F:/code/TBuild/learn/jpeg/mozjpeg64/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 4.0.4
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}
